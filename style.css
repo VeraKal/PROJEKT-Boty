@@ -21,3 +21,123 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+ body {
+    background-color: rgb(238, 238, 238);
+    margin: 0; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+ }
+
+ .produkt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 670px;
+    height: 440px;
+    display: flex;
+    margin-top: 200px;
+ }
+
+ .leva {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    width: 335px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+ }
+
+ .bota {
+    position: absolute;
+    bottom: 10px;
+    left: -80px;
+ }
+
+ .cena_benefit {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+ }
+
+ .prava {
+    background-color: white;
+    padding: 30px;
+    width: 335px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+ }
+
+ .velikosti {
+    padding-left: 0px;
+    display: flex;
+ }
+
+ li {
+    list-style: none;
+    padding: 5px;
+    margin-right: 18px;
+ }
+
+ .zvyraznena {
+    border: orangered solid 1px;
+    border-radius: 50%;
+    color: orangered;
+ }
+
+ .galerie_promo_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+ }
+
+ .cena {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+ }
+
+ .galerie_benefit {
+    font-size: 12px;
+    color: white;
+    text-align: right;
+ }
+
+ h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+ }
+
+ .podnadpis {
+    color: grey;
+ }
+
+ .kratky_popis {
+    padding-bottom: 30px;
+    border-bottom: #06d7c1 solid 1px;
+ }
+
+ h2 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 30px;
+ }
+
+ .tlacitko {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    padding: 13px 38px; 
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+ }
